@@ -1,7 +1,6 @@
-// import Navbar from './Navbar'
+import NavBar from './NavBar'
 import Header from './Header'
-// import Container from '@material-ui/core/Container'
-
+import Footer from './Footer'
 
 const Layout = ({ children }) => {
 	return (
@@ -9,6 +8,7 @@ const Layout = ({ children }) => {
             {/* <Container> */}
                 <Header />
                 {children}
+                <Footer />
             {/* </Container> */}
         </>
     )

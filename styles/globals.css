@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  height: 100vw;
+  background-color: #1f1f1f;
+  font-family: monospace;
+}
+.site-navbar{
+  background-color: rgba(31, 31, 31, 0.5);
+  padding: 10px 0;
+}
+.navbar-brand{
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-nav{
+  font-size: 20px;
+  margin-left: 20vw;
+}
+.nav-link{
+  margin: 0 10px;
+}
+.container{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
 }
