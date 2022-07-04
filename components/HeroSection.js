@@ -2,6 +2,9 @@
 function HeroSection() {
     return (
         <>
+            <div className="hero-img">
+                
+            </div>
         </>
     );
 }
