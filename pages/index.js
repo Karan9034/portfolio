@@ -1,6 +1,6 @@
 import Script from 'next/script'
-import NavBar from '../components/NavBar'
-import HeroSection from '../components/HeroSection';
+import NavBar from '../components/NavBar.js'
+import HeroSection from '../components/HeroSection.js';
 
 const Home = () => {
     return (
