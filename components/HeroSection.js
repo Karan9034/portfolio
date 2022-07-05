@@ -5,7 +5,7 @@ function HeroSection() {
         <Container className='hero-img'>
                 <Image src="/profile.jpg" roundedCircle thumbnail></Image>
                 <div>
-                    <h2>Kon'nichiwa! This is Karan.</h2>
+                    <h2>Kon&rsquo;nichiwa! This is Karan.</h2>
                 </div>
         </Container>
     );
