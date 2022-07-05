@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-const NavBar = () => {
+const SiteNavBar = () => {
 	return (
 		<>
 			<Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className="site-navbar">
@@ -21,4 +21,4 @@ const NavBar = () => {
 	)
 }
 
-export default NavBar
+export default SiteNavBar
