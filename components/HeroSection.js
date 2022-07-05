@@ -1,11 +1,13 @@
+import { Image, Container } from "react-bootstrap";
 
 function HeroSection() {
     return (
-        <>
-            <div className="hero-img">
-                
-            </div>
-        </>
+        <Container className='hero-img'>
+                <Image src="/profile.jpg" roundedCircle thumbnail></Image>
+                <div>
+                    <h2>Kon'nichiwa! This is Karan.</h2>
+                </div>
+        </Container>
     );
 }
 
