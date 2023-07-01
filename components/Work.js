@@ -19,7 +19,7 @@ const Work = () => {
                     <ul>
                         {
                             experiences.map((experience) =>
-                                <li className={id===experience.id ? "active" : undefined} onClick={() => handleClick(experience)}>{experience.company}</li>
+                                <li key={experience.id} className={id===experience.id ? "active" : undefined} onClick={() => handleClick(experience)}>{experience.company}</li>
                             )
                         }
                     </ul>
