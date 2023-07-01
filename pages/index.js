@@ -1,6 +1,7 @@
 import SiteNavBar from '../components/SiteNavBar.js'
 import HeroSection from '../components/HeroSection.js';
 import About from '../components/About.js';
+import Work from '../components/Work.js';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <SiteNavBar />
             <HeroSection />
             <About />
+            <Work />
         </div>
     )
 }
