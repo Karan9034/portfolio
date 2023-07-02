@@ -14,7 +14,7 @@ const Work = () => {
     return (
         <Container id="work">
             <h2>Work Experience&nbsp;<hr style={{borderWidth: "2px"}}/></h2>
-            <Container id="work-content">
+            <div id="work-content">
                 <div id="work-toggle">
                     <ul>
                         {
@@ -25,11 +25,15 @@ const Work = () => {
                     </ul>
                 </div>
                 <div id="work-details">
-                    <p>
-                        This was my experience at {data.company}
-                    </p>
+                    <h4>{data.role}&nbsp;<a href={data.url}>@{data.company}</a></h4>
+                    <p className="duration">{data.start} — {data.end}</p>
+                    <ul>
+                        {data.description.map((item) => 
+                            <li key={item}>{item}</li>
+                        )}
+                    </ul>
                 </div>
-            </Container>
+            </div>
         </Container>
     )
 }

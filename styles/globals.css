@@ -4,18 +4,17 @@
   box-sizing: border-box;
 }
 body{
-  height: 100vw;
   background-color: #0f172a;
   font-family: monospace;
 }
 
 
 .site-navbar{
-  background-color:rgba(38, 46, 63, 0.7);
+  background-color:rgba(38, 46, 63, 1);
   padding: 10px 0;
-  height: 10vh;
+  height: 8vh;
   color: black !important;
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
 }
 .navbar-brand{
   font-size: 24px;
@@ -66,12 +65,12 @@ body{
   font-weight: bold;
 }
 
-#about{
+#skills{
   color: aliceblue;
   margin-top: 20vh;
   margin-bottom: 20vh;
 }
-#about h2{
+#skills h2{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5vh;
@@ -89,10 +88,8 @@ body{
 }
 #work-content{
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 #work-toggle{
   flex: 2;
@@ -106,10 +103,10 @@ body{
 }
 #work-toggle li{
   padding: 1vh 2vh;
-  margin-top: 0.4vh;
-  margin-bottom: 0.4vh;
-  border-radius: 5px;
-  border: grey solid 2px;
+  /* margin-top: 0.4vh; */
+  /* margin-bottom: 0.4vh; */
+  /* border-radius: 5px; */
+  border-left: grey solid 2px;
   color: grey;
   transition: ease 0.8s;
   cursor: pointer;
@@ -118,11 +115,30 @@ body{
 #work-toggle li:hover, #work-toggle li.active{
   border-color: aliceblue;
   color: aliceblue;
+  background-color: rgba(38, 46, 63, 1);
 }
 #work-details{
-  flex: 4;
+  flex: 5;
 }
-
+#work-details h4{
+  font-size: 18px;
+  font-weight: bold;
+  color: aliceblue;
+  letter-spacing: 0.8px;
+  margin-bottom: 1vw;
+}
+#work-details a{
+  text-decoration: none;
+  color: grey;
+  transition: ease 0.6s;
+}
+#work-details a:hover{
+  color: aliceblue;
+  text-decoration: underline 2px;
+}
+#work-details .description{
+  font-size: 14px;
+}
 
 
 @media all and (max-width: 992px) {

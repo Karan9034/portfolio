@@ -1,6 +1,6 @@
 import SiteNavBar from '../components/SiteNavBar.js'
 import HeroSection from '../components/HeroSection.js';
-import About from '../components/About.js';
+import Skills from '../components/Skills.js';
 import Work from '../components/Work.js';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <SiteNavBar />
             <HeroSection />
-            <About />
+            <Skills />
             <Work />
         </div>
     )

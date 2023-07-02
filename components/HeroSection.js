@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 function HeroSection() {
     return (
         <Container id='hero'>
-                <Image src="/profile.jpg" roundedCircle thumbnail></Image>
+                <Image src="/images/profile.jpg" roundedCircle thumbnail></Image>
                 <div>
                     <h2>Kon&rsquo;nichiwa! This is <span>Karan Agrawal</span> from India.👋</h2>
                     <h3>
