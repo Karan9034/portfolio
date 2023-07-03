@@ -10,7 +10,7 @@ body{
 
 
 .site-navbar{
-  background-color:rgba(38, 46, 63, 1);
+  background-color:rgba(38, 46, 63, 0.7);
   padding: 10px 0;
   height: 8vh;
   color: black !important;
@@ -23,10 +23,6 @@ body{
 .navbar-nav{
   font-size: 20px;
   margin-left: 20vw;
-}
-.navbar-nav a + a::before{
-  content: "|";
-  margin-right: 2vw;
 }
 .nav-link{
   margin: 0 10px;
@@ -41,8 +37,8 @@ body{
 #hero{
   text-align: center;
   color: aliceblue;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
 }
 #hero img{
   display: block;
@@ -67,19 +63,45 @@ body{
 
 #skills{
   color: aliceblue;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 #skills h2{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5vh;
 }
+.languages, .frameworks, .tools{
+  display: flex;
+  flex-wrap: wrap;;
+  justify-content: flex-start;
+  margin-bottom: 2vw;
+}
+.skill{
+  background-color: rgba(38, 46, 63, 1);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.skill span{
+  font-size: 18px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: ease 0.6s;
+}
+.skill:hover span{
+  color: grey;
+}
 
 #work{
   color: aliceblue;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 #work h2{
   font-size: 24px;

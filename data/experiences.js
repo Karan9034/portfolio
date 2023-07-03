@@ -3,7 +3,13 @@ const experiences = [
         id: 1,
         role: "Backend Developer(Contractor)",
         company: "PhoeniXRP UK",
-        description: [],
+        description: [
+            "Worked as a founding backend developer of PhoeniXRP, a web3 startup based in the UK.",
+            "Developed the backend for an NFT Marketplace on the XRP Ledger using Node.js and Express.",
+            "Integrated Firebase for a robust and scalable database.",
+            "Implemented OAuth2.0, JWT, and Passkeys (using Corbado) for authentication and authorization.",
+            "Used the XRP Ledger in conjunction with XUMM wallet for signing payments and transactions.",
+        ],
         start: "June, 2023",
         end: "Present",
         url: "https://phoenixrp.io"
@@ -12,7 +18,12 @@ const experiences = [
         id: 2,
         role: "Adv. Application Engineer Intern",
         company: "Accenture India",
-        description: [],
+        description: [
+            "Learnt new skills like Robotic Process Automation using UiPath to automate certain web scraping tasks.",
+            "Got to work on the frontend for the proof-of-concept of a large-scale project.",
+            "Developed modular code in ReactJS to build the frontend.",
+            "Used MapBoxGL and Leaflets for map generation and updation on UI pages."
+        ],
         start: "June, 2022",
         end: "July, 2022",
         url: "https://accenture.com/in-en/"
@@ -21,7 +32,11 @@ const experiences = [
         id: 3,
         role: "Software Development Intern",
         company: "Bovenal Technologies Canada",
-        description: [],
+        description: [
+            "Worked on the Requirements Gathering and Analysis phase for building an HRMS system using Agile Methodology/Scrum.",
+            "Designed a high-level architecture and an ER model for the database.",
+            "Developed the backend for the project using Node.js, Express and MySQL.",
+        ],
         start: "January, 2022",
         end: "March, 2022",
         url: "https://bovenal.com"

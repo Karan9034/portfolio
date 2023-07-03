@@ -1,14 +1,14 @@
 import Header from './Header.js'
 import Footer from './Footer.js'
+import SiteNavBar from './SiteNavBar.js'
 
 const Layout = ({ children }) => {
 	return (
         <>
-            {/* <Container> */}
-                <Header />
-                {children}
-                <Footer />
-            {/* </Container> */}
+            <Header />
+            <SiteNavBar />
+            {children}
+            <Footer />
         </>
     )
 }

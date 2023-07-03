@@ -1,10 +1,10 @@
 import { Image } from 'react-bootstrap'
 
-const Skill = () => {
+const Skill = ({name, src}) => {
     return (
         <div className="skill">
-            <Image src='/images/c++.svg' />
-            <span>Some text</span>
+            <Image src={src} width={'35px'} height={'35px'}/>&nbsp;
+            <span>{name}</span>
         </div>
     )
 }

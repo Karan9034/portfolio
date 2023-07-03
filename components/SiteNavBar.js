@@ -13,6 +13,7 @@ const SiteNavBar = () => {
                             <Nav.Link href="#work">Work</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#resume">Resume</Nav.Link>
+                            <Nav.Link href="https://blog.karanel.tech">Blog</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
