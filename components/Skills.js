@@ -13,15 +13,15 @@ const Skills = () => {
                         <Skill key={index} name={skill.name} src={skill.src} />
                     ))}
                 </div>
-                <h5>Libraries & Frameworks&nbsp;<hr style={{borderWidth: "1px"}}/></h5>
+                <h5>Tools & Frameworks&nbsp;<hr style={{borderWidth: "1px"}}/></h5>
                 <div className="frameworks">
                     {skillsData.frameworks.map((skill, index) => (
                         <Skill key={index} name={skill.name} src={skill.src} />
                     ))}
                 </div>
-                <h5>Tools & Cloud&nbsp;<hr style={{borderWidth: "1px"}}/></h5>
-                <div className="tools">
-                    {skillsData.tools.map((skill, index) => (
+                <h5>Platforms&nbsp;<hr style={{borderWidth: "1px"}}/></h5>
+                <div className="platforms">
+                    {skillsData.platforms.map((skill, index) => (
                         <Skill key={index} name={skill.name} src={skill.src} />
                     ))}
                 </div>
