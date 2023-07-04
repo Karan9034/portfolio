@@ -1,31 +1,35 @@
 const projects = [
     {
         id: 1,
-        title: 'Project 1',
-        description: 'This is project 1',
-        image: 'https://picsum.photos/200/300',
-        link: 'https://www.google.com'
+        title: 'MediChain',
+        description: '',
+        image: '',
+        link: 'https://github.com/Karan9034/mediChain',
+        skills: []
     },
     {
         id: 2,
-        title: 'Project 2',
-        description: 'This is project 2',
-        image: 'https://picsum.photos/200/300',
-        link: 'https://www.google.com'
+        title: 'dopeShop',
+        description: '',
+        image: '',
+        link: 'https://github.com/Karan9034/dopeShop',
+        skills: []
     },
     {
         id: 3,
-        title: 'Project 3',
-        description: 'This is project 3',
-        image: 'https://picsum.photos/200/300',
-        link: 'https://www.google.com'
+        title: 'Complaint Forum',
+        description: '',
+        image: '',
+        link: 'https://www.google.com',
+        skills: []
     },
     {
         id: 4,
-        title: 'Project 4',
-        description: 'This is project 4',
-        image: 'https://picsum.photos/200/300',
-        link: 'https://www.google.com'
+        title: 'AI Mail Classifier',
+        description: '',
+        image: '',
+        link: 'https://www.google.com',
+        skills: []
     },
 ]
 
