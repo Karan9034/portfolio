@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap"
 
-const Footer = () => {
+const Contact = () => {
 	return (
 		<div id="contact">
 			<Container>
@@ -10,4 +10,4 @@ const Footer = () => {
 	)
 }
 
-export default Footer
+export default Contact

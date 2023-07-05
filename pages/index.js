@@ -6,12 +6,22 @@ import Work from '../components/Work.js';
 import Projects from '../components/Projects.js';
 import { useEffect, useState } from 'react';
 import colors from '../data/colors.js';
+import Contact from '../components/Contact.js';
 
 const Home = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
     useEffect(() => {
+        if(localStorage.getItem('isDarkMode') === 'true'){
+            setIsDarkMode(true);
+        }else if(localStorage.getItem('isDarkMode') === 'false'){
+            setIsDarkMode(false);
+        }
+    }, [])
+
+    useEffect(() => {
         var r = document.querySelector(':root');
+        localStorage.setItem('isDarkMode', isDarkMode);
         if(isDarkMode){
             r.style.setProperty('--bg-color', colors.darkBg)
             r.style.setProperty('--text-primary', colors.darkTextPrimary)
@@ -33,7 +43,8 @@ const Home = () => {
             <About />
             <Work />
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
+            {/* <Contact /> */}
         </div>
     )
 }

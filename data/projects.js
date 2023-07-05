@@ -4,7 +4,7 @@ const projects = [
         title: 'MediChain',
         description: '',
         image: '',
-        link: 'https://github.com/Karan9034/mediChain',
+        github: 'https://github.com/Karan9034/mediChain',
         skills: []
     },
     {
@@ -12,7 +12,7 @@ const projects = [
         title: 'dopeShop',
         description: '',
         image: '',
-        link: 'https://github.com/Karan9034/dopeShop',
+        github: 'https://github.com/Karan9034/dopeShop',
         skills: []
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         title: 'Complaint Forum',
         description: '',
         image: '',
-        link: 'https://github.com/Karan9034/complaint-forum',
+        github: 'https://github.com/Karan9034/complaint-forum',
         skills: []
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         title: 'AI Mail Classifier',
         description: '',
         image: '',
-        link: 'https://github.com/Karan9034/AI-Mail-Classifier',
+        github: 'https://github.com/Karan9034/AI-Mail-Classifier',
         skills: []
     },
 ]
