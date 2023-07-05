@@ -17,11 +17,13 @@ const Home = () => {
             r.style.setProperty('--text-primary', colors.darkTextPrimary)
             r.style.setProperty('--text-secondary', colors.darkTextSecondary)
             r.style.setProperty('--text-inactive', colors.darkTextInactive)
+            r.style.setProperty('--logo-ring', colors.darkLogoRing)
         }else{
             r.style.setProperty('--bg-color', colors.lightBg)
             r.style.setProperty('--text-primary', colors.lightTextPrimary)
             r.style.setProperty('--text-secondary', colors.lightTextSecondary)
             r.style.setProperty('--text-inactive', colors.lightTextInactive)
+            r.style.setProperty('--logo-ring', colors.lightLogoRing)
         }
     }, [isDarkMode])
     return (

@@ -63,6 +63,8 @@ body{
   margin-right: auto;
   margin-bottom: 10px;
   width: 40%;
+  border-color: var(--logo-ring) !important;
+  background-color: var(--logo-ring) !important;
 }
 #hero h2{
   font-size: 24px;
