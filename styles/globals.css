@@ -21,11 +21,28 @@ body{
   font-weight: bold;
 }
 .navbar-nav{
+  display: flex;
   font-size: 20px;
-  margin-left: 20vw;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
 }
 .nav-link{
   margin: 0 10px;
+}
+.site-navbar button{
+  height: 36px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.site-navbar button:focus{
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none;
 }
 .container{
   margin-left: 20%;
@@ -83,6 +100,7 @@ body{
   flex: 1;
   color: var(--text-primary);
   font-size: 18px;
+  text-align: justify;
 }
 #about-text a{
   color: var(--text-secondary);

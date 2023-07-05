@@ -20,7 +20,7 @@ const projects = [
         title: 'Complaint Forum',
         description: '',
         image: '',
-        link: 'https://www.google.com',
+        link: 'https://github.com/Karan9034/complaint-forum',
         skills: []
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         title: 'AI Mail Classifier',
         description: '',
         image: '',
-        link: 'https://www.google.com',
+        link: 'https://github.com/Karan9034/AI-Mail-Classifier',
         skills: []
     },
 ]

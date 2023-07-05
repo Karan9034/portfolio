@@ -1,6 +1,7 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import colors from "../data/colors";
 
-const SiteNavBar = () => {
+const SiteNavBar = ({isDarkMode, setIsDarkMode}) => {
     return (
 		<>
 			<Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className="site-navbar">
@@ -17,6 +18,12 @@ const SiteNavBar = () => {
                             <Nav.Link href="https://blog.karanel.tech">Blog</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
+                    <Button style={{backgroundColor: isDarkMode ? colors.darkTextSecondary : colors.lightTextSecondary }} onClick={() => setIsDarkMode(!isDarkMode)}>
+                        {isDarkMode ?
+                            <>☀&nbsp;Light&nbsp;Mode</> : 
+                            <>🌒︎&nbsp;Dark&nbsp;Mode</>
+                        }
+                    </Button>
                 </Container>
             </Navbar>
 		</>
