@@ -1,8 +1,8 @@
 const colors = {
-    lightTextPrimary: "#53565a",
-    lightTextSecondary: "#807094",
-    lightBg: "#b4fdc0",
-    lightTextInactive: "#53565a",
+    lightTextPrimary: "#333",
+    lightTextSecondary: "grey",
+    lightBg: "aliceblue",
+    lightTextInactive: "#333",
     darkTextPrimary: "aliceblue",
     darkTextSecondary: "grey",
     darkBg: "#0f172a",
