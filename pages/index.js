@@ -43,8 +43,8 @@ const Home = () => {
             <About />
             <Work />
             <Skills />
-            {/* <Projects /> */}
-            {/* <Contact /> */}
+            <Projects />
+            <Contact />
         </div>
     )
 }

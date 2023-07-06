@@ -238,18 +238,70 @@ body{
   display: flex;
   flex-direction: row;
   background-color: rgba(38, 46, 63, 1);
-  border-radius: 10px;
+  border-radius: 20px;
   color: aliceblue;
   margin-bottom: 5vh;
-  padding: 2vh;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
 }
 .project .project-image{
   flex: 5;
+  width: 90%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project .project-image > img{
+  width: 100%;
+  border: 2px solid var(--logo-ring);
+  border-radius: 10px;
+}
+.project-link{
+  margin-top: 2vh;
+  background-color: cadetblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none;
+  transition: ease 0.6s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-link:hover{
+  background-color: #333;
+  color: aliceblue;
+  outline: 2px solid aliceblue;
 }
 .project .project-info{
   flex: 3;
+  display: flex;
+  flex-direction: column;
 }
-
+.project .project-info h4{
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 1vw;
+}
+.project .project-info p{
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 1vw;
+}
+.project-tags{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5vw;
+}
+.tag{
+  padding: 5px 10px;
+  font-weight: bold;
+}
 
 
 
