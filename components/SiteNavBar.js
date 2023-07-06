@@ -14,8 +14,8 @@ const SiteNavBar = ({isDarkMode, setIsDarkMode}) => {
                             <Nav.Link href="#work">Work</Nav.Link>
                             <Nav.Link href="#skills">Skills</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#resume">Resume</Nav.Link>
-                            <Nav.Link href="https://blog.karanel.tech">Blog</Nav.Link>
+                            <Nav.Link href="/resume.pdf" target="_blank">Resume</Nav.Link>
+                            <Nav.Link href="https://blog.karanel.tech" target="_blank">Blog</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     <Button style={{backgroundColor: isDarkMode ? colors.darkTextSecondary : colors.lightTextSecondary }} onClick={() => setIsDarkMode(!isDarkMode)}>
