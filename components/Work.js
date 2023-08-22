@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 import experiences from "../data/experiences"
 
 const Work = () => {
-    const [id, setId] = useState(1)
+    const [id, setId] = useState(2)
     const [data, setData] = useState(experiences[0])
     
     const handleClick = (experience) => {

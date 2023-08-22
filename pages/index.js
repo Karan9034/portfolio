@@ -9,7 +9,7 @@ import colors from '../data/colors.js';
 import Contact from '../components/Contact.js';
 
 const Home = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     useEffect(() => {
         if(localStorage.getItem('isDarkMode') === 'true'){
