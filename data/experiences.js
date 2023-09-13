@@ -1,21 +1,6 @@
 const experiences = [
     // {
     //     id: 1,
-    //     role: "Backend Developer(Contractor)",
-    //     company: "PhoeniXRP UK",
-    //     description: [
-    //         "Worked as a founding backend developer of PhoeniXRP, a web3 startup based in the UK.",
-    //         "Developed the backend for an NFT Marketplace on the XRP Ledger using Node.js and Express.",
-    //         "Integrated Firebase for a robust and scalable database.",
-    //         "Implemented OAuth2.0, JWT, and Passkeys (using Corbado) for authentication and authorization.",
-    //         "Used the XRP Ledger in conjunction with XUMM wallet for signing payments and transactions.",
-    //     ],
-    //     start: "June, 2023",
-    //     end: "Present",
-    //     url: "https://phoenixrp.io"
-    // },
-    // {
-    //     id: 1,
     //     role: "Adv. Application Engineer Analyst",
     //     company: "Accenture India",
     //     description: [
@@ -25,6 +10,21 @@ const experiences = [
     //     end: "Present",
     //     url: "https://accenture.com/in-en/"
     // },
+    {
+        id: 1,
+        role: "Backend Developer",
+        company: "PhoeniXRP.io UK",
+        description: [
+            "Worked as a founding backend developer of PhoeniXRP, a web3 startup based in the UK.",
+            "Developed the backend for an NFT Marketplace on the XRP Ledger using Node.js and Express.",
+            "Integrated Firebase for a robust and scalable database.",
+            "Implemented OAuth2.0, JWT, and Passkeys (using Corbado) for authentication and authorization.",
+            "Used the XRP Ledger in conjunction with XUMM wallet for signing payments and transactions.",
+        ],
+        start: "June, 2023",
+        end: "September, 2023",
+        url: "https://phoenixrp.io"
+    },
     {
         id: 2,
         role: "Adv. Application Engineer Intern",

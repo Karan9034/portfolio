@@ -63,6 +63,10 @@ const skills = {
             "src": "/images/electron.svg"
         },
         {
+            "name": "Hardhat",
+            "src": "/images/hardhat.svg"
+        },
+        {
             "name": "Truffle",
             "src": "/images/truffle.svg"
         },
@@ -129,20 +133,12 @@ const skills = {
             "src": "/images/ethereum.svg"
         },
         {
-            "name": "XRPL",
-            "src": "/images/xrpl.svg"
-        },
-        {
             "name": "Infura",
             "src": "/images/infura.svg"
         },
         {
             "name": "Metamask",
             "src": "/images/metamask.svg"
-        },
-        {
-            "name": "Xumm",
-            "src": "/images/xumm.svg"
         },
     ]
 }
