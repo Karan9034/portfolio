@@ -1,29 +1,18 @@
 const experiences = [
-    // {
-    //     id: 1,
-    //     role: "Adv. Application Engineer Analyst",
-    //     company: "Accenture India",
-    //     description: [
-    //         "Soon to join as an Advanced Application Engineer Analyst at Accenture India.",
-    //     ],
-    //     start: "September, 2023",
-    //     end: "Present",
-    //     url: "https://accenture.com/in-en/"
-    // },
     {
         id: 1,
-        role: "Backend Developer",
-        company: "PhoeniXRP.io UK",
+        role: "Full Stack Developer",
+        company: "PhoeniXRP NFT Marketplace",
         description: [
-            "Worked as a founding backend developer of PhoeniXRP, a web3 startup based in the UK.",
-            "Developed the backend for an NFT Marketplace on the XRP Ledger using Node.js and Express.",
-            "Integrated Firebase for a robust and scalable database.",
-            "Implemented OAuth2.0, JWT, and Passkeys (using Corbado) for authentication and authorization.",
-            "Used the XRP Ledger in conjunction with XUMM wallet for signing payments and transactions.",
+            "Worked on developing and designing database schemas.",
+            "Worked on developing the backend for the NFT Marketplace using ExpressJS.",
+            "Integrated Firebase and Socket.IO for implementing realtime updates, and OAuth2.0 for authentication.",
+            "Integrated Web3 technologies including XRP Ledger, XXUM Wallet, and IPFS decentralised storage.",
+            "Managed DNS records and SSL certificates for custom domain setup"
         ],
         start: "June, 2023",
         end: "September, 2023",
-        url: "https://phoenixrp.io"
+        url: "#"
     },
     {
         id: 2,
@@ -50,7 +39,7 @@ const experiences = [
         ],
         start: "January, 2022",
         end: "March, 2022",
-        url: "https://bovenal.com"
+        url: "#"
     },
     {
         id: 4,
